@@ -31,6 +31,8 @@ footer, header, hgroup, menu, nav, section {
 
 body {
 	line-height: 1;
+    background-color: darkcyan;
+
 }
 
 ol, ul {
@@ -48,27 +50,45 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+
 * {
     box-sizing: border-box;
 }
 
 header{
     background-color: rgb(50, 92, 151);
-    text-align: center;
     padding: 15px;
+    font-size: 0;
 }
+.brand, .nav{
+    display: inline-block;
+    vertical-align: middle;
+}
+.logo{
+    width:40px;
 
+}
+.nav{
+    font-size: 16px;
+    width: calc(100% - 100px);
+    text-align: right;
+}
 a{
     text-decoration: none;
     color: white;
+    text-transform: uppercase;
+    padding-left: 20px;
+
 }
 
+main{
+    background-color: darksalmon;
+}
 article{
     display: flex;
     justify-content: center;
     align-items: center;
-    
- 
 }
 aside, section{
     padding: 10px;
@@ -76,6 +96,14 @@ aside, section{
     display: inline-block;
     height: 400px;
     vertical-align: middle;
+}
+h3,p{
+    color: white;
+    padding: 10px;
+
+}
+h3{
+    font-size: 25px;
 }
 aside{
     width:30%;
@@ -94,4 +122,10 @@ img {
     display: inline-block;
     
 
+}
+
+footer{
+    padding: 35px;
+    color: white;
+    height:fill;
 }
