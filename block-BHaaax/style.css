@@ -51,6 +51,7 @@ table {
 * {
     box-sizing: border-box;
 }
+
 header{
     background-color: rgb(50, 92, 151);
     text-align: center;
@@ -61,11 +62,20 @@ a{
     text-decoration: none;
     color: white;
 }
+
+article{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+ 
+}
 aside, section{
     padding: 10px;
     margin: 1.5%;
     display: inline-block;
     height: 400px;
+    vertical-align: middle;
 }
 aside{
     width:30%;
@@ -75,8 +85,13 @@ aside{
 section{
     width: 55%;
     background-color: chocolate;
+    text-align: center;
+
 }
 
 img {
     width: 90%;
+    display: inline-block;
+    
+
 }
