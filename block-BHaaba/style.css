@@ -9,34 +9,69 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 *{
     box-sizing: border-box;
 }
-header {
-    border-bottom: 3px solid black;
-    height:50px;
-}
+
 .header{
-    display: block;
+    line-height: 72px;
+    height:72px;
+    border-bottom: 3px solid black;
 }
 a {
     text-decoration: none;
     color:black;
     text-transform: uppercase;
+}
+
+.clearfix:before, .clearfix:after {
+    content:"";
+    clear: both;
 
 }
 
-.logo, .nav{
-    display: inline-block;
-    vertical-align: middle;
+.clearfix:after{
+    display: table;
 
 }
 .logo{
     float:left;
 }
+.logo img{
+    vertical-align: middle;
+}
 .nav{
     float:right;
     font-size: 15px;
+    vertical-align: middle;
+
 }
 .resize {
-width: 350px;
-object-fit: contain;
+width: 200px;
+object-fit:cover;
 height: 400px;
+border-radius: 5%;
+}
+p {
+    float:right;
+}
+.section {
+    padding: 60px 0;
+    background-color: lightgray;
+}
+.col{
+    float:left;
+    width: 30%;
+    margin: 0 1.5%;
+    padding: 10px;
+    background-color: lightgray;
+    border-radius: 5%;
+}
+.footer{
+    height:100px;
+    background-color:darkgray;
+}
+.footer-copyright{
+    float:left;
+}
+.footer-r{
+    float:right;
+    padding: 10px;
 }
