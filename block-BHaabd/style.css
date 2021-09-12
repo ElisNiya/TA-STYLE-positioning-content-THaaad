@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+}
+body{
+    background-color: lightgray;
+    line-height: 1.5;
+    font-size: 16px;
+}
+header{
+    text-align: center;
+    background-color: lightgray;
+}
+
+main{
+    background-color: lightgray;
+}
+.container{
+    background-color: white;
+    max-width: 1000px;
+    height: 900px;
+    padding: 20px;
+    margin: 0 auto;
+}
+img{
+    width:350px;
+    height: auto;
+}
+h3{
+    text-align: center;
+}
+
+.col-1, .col-2, .col-3 {
+    float:left;
+}
+.col-1, .col-3 {
+    width:25%
+}
+
+.col-2{
+    width:45%;
+}
+.clearfix::beofre,
+.clearfix::after{
+    content:"";
+    display: table;
+}
+.clearfix::after{
+    clear:both;
+}
