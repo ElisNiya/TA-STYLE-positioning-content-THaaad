@@ -1,26 +1,92 @@
 
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
 *{
     box-sizing: border-box;
 }
-#header{
+
+body{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+.header{
     background-color: lightgray;
-    padding: 15px;
-    height: 50px;
-    vertical-align: middle;
+    height: 80px;
+    line-height: 80px;
+    position:fixed;
+    width:100%;
 
 }
+
+.article{
+    padding: 50px;
+    margin-right: 200px;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 22px;
+    
+}
 .brand{
-    width:35%;
     float:left;
 }
-.nav{
-    float:right;
-    width:60%;
-}
-.logo{
+.brand img{
+    vertical-align: middle;
     width:50px;
     height:auto;
 }
+.nav{
+    float:right; 
+}
+
 
 .clearfix::before,
 .clearfix::after{
@@ -35,6 +101,7 @@ a{
     text-decoration: none;
     color:#272727;
     padding:10px;
+    padding-right: 20px;
 }
 img{
     width: 300px;
@@ -43,12 +110,39 @@ img{
     float:left;
     padding: 15px;
 }
+h2{
+    font-size:25px;
+    text-transform: uppercase;
+    font-weight: lighter;
+    margin:10px;
+}
+p{
+    margin:10px;
+    font-weight: lighter;
+}
+.col{
+    float:left;
+    width:50%;
+}
+.col-2 img{
+    width: 450px;
+    height:auto;
+    float:right;
+}
 .resize{
     object-position: 80% 40%;
 }
 .btn{
-    border-radius: 65%;
+    border-radius: 50%;
+    width:70px;
+    height:70px;
     border: 1px solid lightgreen;
     background-color: limegreen;
     padding: 10px;
+    position: fixed;
+    right: 32px;
+    bottom: 32px;
+}
+.gallery{
+    padding: 80px 0;
 }
