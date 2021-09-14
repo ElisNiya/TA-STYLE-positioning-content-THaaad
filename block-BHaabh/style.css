@@ -1,0 +1,162 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;}
+
+header{
+    background-color: rgb(83, 145, 206);
+    color: white;
+    height: 60px;
+    line-height: 60px;
+
+}
+a{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+    float:right;
+    padding-right: 60px;
+}
+.name{
+    float:left;
+    vertical-align: middle;
+    padding-left: 60px;
+
+}
+.nav{
+    float:right;
+}
+.heading{
+    background-color: rgb(83, 145, 206);
+    padding:100px;
+    text-align: center;
+    color: #fff;
+}
+h1{
+    font-size: 25px;
+    padding: 5px;;
+}
+p{
+    color: rgb(0, 246, 115);
+    padding-top: 10px;;
+}
+
+.container{
+    margin: 0 auto;
+    padding: 40px 60px;
+    width: 90%;
+}
+.col {
+    float: left;
+    width: 30%;
+    margin: 10px;
+}
+.col p{
+    padding-top: 10px;
+    color:darkgray;
+}
+h3{
+color: rgb(83, 145, 206);
+font-size: 20px;
+}
+
+button{
+    background-color: rgb(83, 145, 206);
+    color:#fff;
+    box-shadow: none;
+    border: none;
+    padding: 10px 15px;
+    margin-top: 30px;;
+}
+
+.clearfix::before, .clearfix::after{
+    content:"";
+    display: table;
+}
+.clearfix::after{
+    clear:both;
+}
+
+.team{
+    margin: 0 auto;
+    padding: 40px 0;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(83, 145, 206);
+}
+
+h2{
+    color: #fff;
+    font-size: 15px;
+    padding-bottom: 5px;
+}
+
+.box{
+    border: 1px solid darkgray;
+    padding: 10px;
+    width: 150px;
+    height:150px;
+    float:left;
+    margin: 10px 20px;
+    text-align: center;
+}
+.box img{
+    clip-path: circle();;
+    width: 60px;
+    height:60px;
+    object-fit: cover;;
+}
+.box p{
+    font-size: 10px;
+}
+
+.info{
+    margin: 0 auto;
+    padding: 60px;;
+}
+.heading-white{
+    background-color: white;
+    text-align: center;
+    margin: 50px;
+}
+.heading-white h1 {
+    color: rgb(83,145,206);
+    font-size: 25px;
+}
+.heading-white p{
+    color: darkgray;
+
+}
+.col-2{
+    width:45%;
+    float:left;
+    margin:1,5%;
+    padding: 15px;;
+
+}
+.col-2 p{
+    color:darkgray;
+}
+.footer{
+    height: 120px;
+}
+.trademark{
+    float:left;
+    width:33%;
+    color: rgb(83, 145, 206);
+    padding-left: 20px;
+}
+
+.social{
+    float:right;
+    color:rgb(83, 145, 206);
+}
